@@ -1,51 +1,47 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: black;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
 }
 
-.logo {
+.logo a {
     color: black;
+    text-decoration: none;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
-}
-
-.nav-links li {
-    display: inline;
     position: relative;
-    right:600px ;
-    
+    right: 600px;
 }
 
-.nav-links a {
-    color: black;
+.nav-links li a {
+    color:  black;
     text-decoration: none;
-    padding: 5px 10px;
+    transition: color 0.3s;
 }
 
-.nav-links a:hover {
-    background-color: black;
+.nav-links li a:hover {
+    color: green; 
+}
+
+.search input {
+    padding: 5px;
+    border: 50px;
     border-radius: 5px;
 }
 
-.m0 {
-    position: relative;
-    left: 400px;
-    
-}
-
-.profile-icon {
-    font-size: 20px;
-}
