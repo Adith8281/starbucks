@@ -9,6 +9,7 @@ header {
 }
 
 .navbar {
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,31 +40,53 @@ header {
     color: lightgreen; 
 }
 
-.search-container i {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-   
+.search-container{
+    position: relative;
+    top: 40px;
+    right: 550px;
     color: black; 
     height: 100px;
-    width: 50px;
-}
+    width: 100px;
+    }
+    .search-box {
+        width: 250px; 
+        height: 30px; 
+        padding: 5px; 
+        font-size: 16px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px
+    }
 .profile-icon a {
+    position: relative;
+    right: 350px;
     color: black;
     font-size: 24px;
     text-decoration: none;
     margin-left: 20px;
 }
 .div1{
-    background-color: rgba(25, 112, 25, 0.251);
     display: flex;
+    background-color: rgba(25, 112, 25, 0.251);
     padding-left: 100px;
 }
 button{
+height: 25px;
     position: relative;
-    left: 1000px;
-    size: 100px;
+    left: 900px;
+    top: 13px;
+    border-radius: 10px;
 }
+.categories1{
+        right: 350px;
+        width: 200px;  
+        height: 200px;  
+        border-radius: 50px;
+        left: 600px;
+}
+.round-image {
+    width: 100px;  
+    height: auto;}
+
     
  
 
