@@ -9,7 +9,7 @@ header {
 }
 
 .navbar {
-    width: 50%;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,16 +76,69 @@ height: 25px;
     top: 13px;
     border-radius: 10px;
 }
-.categories1{
-        right: 350px;
-        width: 200px;  
-        height: 200px;  
-        border-radius: 50px;
-        left: 600px;
+.categories0{
+    display: flex;
 }
-.round-image {
-    width: 100px;  
-    height: auto;}
+.categories1{
+    padding: 90px;
+    
+        align-items: center;
+        right: 800px;  
+        border-radius: 50px;
+        left: 800px;
+        padding: 40px;
+        float: right;
+        margin-left: 90px; 
+        
+}
+.categories2{
+    
+    align-items: center;
+    right: 350px;  
+    border-radius: 50px;
+    left: 600px;
+    padding: 40px;
+}
+.categories3{
+    
+    align-items: center;
+    right: 350px;  
+    border-radius: 50px;
+    left: 600px;
+    padding: 40px;
+}
+.categories4{
+   
+    align-items: center;
+    right: 350px;  
+    border-radius: 50px;
+    left: 600px;
+    padding: 40px;
+}
+.categories5{
+   
+    align-items: center;
+    right: 350px;  
+    border-radius: 50px;
+    left: 600px;
+    padding: 40px;
+}
+.categories6{
+   
+    align-items: center;
+    right: 350px;  
+    border-radius: 50px;
+    left: 600px;
+    padding: 40px;
+}
+h1{
+    align-items: center;
+    margin-left: 110px; 
+}
+    
+
+
+    
 
     
  
