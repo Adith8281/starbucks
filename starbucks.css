@@ -9,7 +9,7 @@ header {
 }
 
 .navbar {
-    width: 400px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,8 +80,8 @@ height: 25px;
     display: flex;
 }
 .categories1{
-    padding: 90px;
-    overflow: hidden;
+         padding: 90px;
+        overflow: hidden;
         align-items: center;
         right: 800px;  
         border-radius: 50px;
@@ -138,36 +138,32 @@ h1{
     align-items: center;
     margin-left: 110px; 
 }
- .row{
-background-color: #ccc;
-width: 1300px;
-height: 300px;
+.newdiv{
+    
+    background: rgb(223, 218, 209);
+    height: 400px;
+    width: 1300px;
+    padding: 150px 
+
 }
-.menu-iteam1{
-    background-color: azure;
-    align-items: center;
+.iteam1{
+    height: 430px;
+    width: 1300px;
 }
-.image-box1 {
-    background-color: white;
-    width: 350px; 
-    height: 160px; 
-    overflow: hidden; 
-    border: 2px solid #ccc; 
-    border-radius: 8px; 
-    text-align: center;
-    position: relative;
-    left: 40px;
-    top: 80px;
+
+.rooter{
+    background-color: rgb(2, 58, 2);
+    height: 500px;
+    padding: 20px;               
+    margin: 20px;               
+    border: 2px solid blue;     
+    text-align: center;        
+
 }
-.image-box img {
-    width: 50%; 
-    height: auto; 
-    display: block; 
-    width: 80px;
-    height: 80px;
-    top: 60px;
-    right: 20px;
-    }
+
+
+
+
 
 
     
