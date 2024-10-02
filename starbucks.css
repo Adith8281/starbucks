@@ -66,8 +66,12 @@ header {
 }
 .div1{
     display: flex;
-    background-color: rgba(25, 112, 25, 0.251);
+    background-color: darkgreen;
     padding-left: 100px;
+    overflow-wrap: 100px;
+}
+.starbucks1{
+    padding: 40px;
 }
 button{
 height: 25px;
@@ -83,15 +87,16 @@ height: 25px;
          padding: 90px;
         overflow: hidden;
         align-items: center;
-        right: 800px;  
+        right: 100%;  
         border-radius: 50px;
-        left: 800px;
+        left:100%;
         padding: 40px;
         float: right;
         margin-left: 90px; 
         border-radius: 50%;
         width: 100px;
         height: 100px;
+        
         
 }
 .categories2{
