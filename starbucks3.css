@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  header {
+    background-color:
+    padding: 10px 20px;
+  }
+  
+  .navbar1 {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo  {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 100px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 900px;
+  }
+  
+  .nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: lightgreen; 
+  }
+  
+  .search-container{
+    position: relative;
+    top: 40px;
+    right: 550px;
+    color: black; 
+    height: 100px;
+    width: 100px;
+    }
+    .search-box {
+        width: 250px; 
+        height: 30px; 
+        padding: 5px; 
+        font-size: 16px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px
+    }
+
+  
+  .profile-icon  {
+    position: relative;
+    right: 300px;
+   height: 30px;
+}
+
+
+
+.big-div{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+
+}
+
+
+.big-1div{
+    background-color: rgb(11, 4, 4);
+    padding: 30px;
+    height: 45px;
+}
+
+
+.search-container{
+    position: relative;
+    top: 40px;
+    right: 550px;
+    color: black; 
+    height: 10px;
+    width: 100px;
+    }
+    .search-box {
+        width: 300px; 
+        height: 30px; 
+        padding: 5px; 
+        font-size: 16px; 
+        border: 1px solid #ccc; 
+        border-radius: 10px
+    }
+
+    .allbig-div{
+        background-color:whitesmoke
+    }
+
+  
+        
+    .img-right {
+        margin-left: 900px;
+        margin-bottom:300px; 
+        
+    }
+
+    .img3 {
+        display: flex; 
+        align-items: center; 
+        position: relative;
+        top: 150px;
+        left: 80px;
+    }
+    .prg{
+        align-items: center;
+        position: relative;
+        top: 230px;
+        left: 40px;
+    }
+
+    .prg-1{
+        align-items: center;
+        position: relative;
+        top: 240px;
+        left: 10px;
+        font-size: small;
+
+    }
+
+    .img-right{
+        bottom: 1000px;
+    }
+
+
+
+    
+    .search-button {
+        color: green; 
+       padding: 40px;
+        border: 3px solid transparent; 
+        border-radius: 30px;
+        padding: 10px 20px; 
+        cursor: pointer; 
+        font-size: 14px; 
+        transition: background-color 0.3s, border-color 0.3s;
+        align-items: center;
+        position: relative;
+        top: 230px;
+        left: 60px;
+    }
+
+
+
+
+    .searchicon{
+        position: relative;
+        bottom: 26px;
+        left: 226px;
+        height: 5px;
+        
+    
+      }
+     
+    
+ 
+    
+    
+    
+   
+
+
+
+    
+  

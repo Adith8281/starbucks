@@ -55,15 +55,12 @@ header {
         padding: 5px; 
         font-size: 16px; 
         border: 1px solid #ccc; 
-        border-radius: 5px
+        border-radius: 10px
     }
-.profile-icon a {
+.profile-icon  {
     position: relative;
-    right: 350px;
-    color: black;
-    font-size: 24px;
-    text-decoration: none;
-    margin-left: 20px;
+    right: 300px;
+   height: 30px;
 }
 .div1{
     display: flex;
@@ -79,7 +76,7 @@ height: 25px;
     position: relative;
     left: 900px;
     top: 13px;
-    border-radius: 10px;
+    border-radius: 14px;
 }
 .categories0{
     display: flex;
@@ -197,7 +194,7 @@ height: 25px;
         left: 80px;
         justify-content: center;
     }
-    color: #333;
+   
 
     
     
@@ -272,9 +269,9 @@ height: 25px;
     background-color: white;
 }
 p{
-    position: relative;
-    left: 1250px;
-    bottom: 60px;
+    color: white;
+
+
 }
    
 
@@ -420,7 +417,14 @@ h1 {
     bottom: 300px;
     left: 860px;
   }
-  
+  .searchicon{
+    position: relative;
+    bottom: 26px;
+    left: 226px;
+    height: 5px;
+    
+
+  }
  
 
 
