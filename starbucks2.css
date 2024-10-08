@@ -75,16 +75,22 @@ header {
 .one-div{
   background-color:  #0e382c;
   height: 140px;
-  width: 100%;}
-   
+  width: 100%;
+}
+  .one-src{
+    position: relative;
+    left: 220px;
+    top: 20px;
+  } 
 
 
  
 
 .navbar2 {
-    background-color: rgb(244, 228, 230); 
+    background-color:gainsboro;
     padding: 10px; 
     display: flex;
+
 }
 
 .navbar-menu {
@@ -95,18 +101,20 @@ header {
 }
 
 .navbar-menu li {
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  margin-left: 150px;
+
 }
 
 .navbar-menu a {
   color: white;
   text-decoration: none;
   padding: 10px;
-  transition: background 0.3s;
+  /* transition: background 0.3s; */
 }
 
 .navbar-menu a:hover {
-  background-color: #e24343;
+  background-color: rgb(2, 34, 13);
 }
 
 
@@ -119,6 +127,7 @@ header {
   background-color: #f9f9f9;
   max-width: 300px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
 }
 
 .item-name {
@@ -137,7 +146,7 @@ header {
 
 .item-price {
   font-weight: bold;
-  color: #d9534f;
+  color: #e6dbda;
 }
 
 
@@ -170,7 +179,7 @@ header {
 
 .item-price {
   font-weight: bold;
-  color: #d9534f;
+  color: #f1e5e5;
 }
 
 
@@ -204,7 +213,7 @@ header {
 
 .item-price {
   font-weight: bold;
-  color: #d9534f;
+  color: #e0d8d7;
 }
 
 
@@ -215,6 +224,9 @@ header {
 .round-1{
     display: flex;
     gap: 60px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -244,7 +256,7 @@ header {
 
 .item-price {
   font-weight: bold;
-  color: #d9534f;
+  color: #ecdcdc;
 }
 
 
@@ -275,7 +287,7 @@ header {
 
 .item-price {
   font-weight: bold;
-  color: #d9534f;
+  color: #ebdbdb;
 }
 
 
@@ -306,13 +318,18 @@ header {
 
 .item-price {
   font-weight: bold;
-  color: #d9534f;
+  color: #f1e3e3;
 }
 
 
 .round-2{
   display: flex;
   gap: 60px;
+  margin: 200px;
+  margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+ 
 }
 
 
@@ -345,7 +362,7 @@ header {
 
 .item-price {
   font-weight: bold;
-  color: #d9534f;
+  color: #f1e3e3;
 }
 
 
@@ -376,7 +393,7 @@ header {
 
 .item-price {
   font-weight: bold;
-  color: #d9534f;
+  color: #fcf8f8;
 }
 
 
@@ -385,6 +402,11 @@ header {
 .round-3{
   display: flex;
   gap: 60px;
+  margin: 200px;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+ 
 }
 
 
@@ -396,4 +418,19 @@ header {
   height: 5px;
   
 
+}
+
+h3{
+  margin: 200px;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+
+ol{
+  margin: 400px;
+  margin-left: 152px;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
