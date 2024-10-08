@@ -41,22 +41,22 @@ body {
     color: lightgreen; 
   }
   
-  .search-container{
+  .nav-2 input{
+    width: 200px;
+    height: 18px;
+    padding: 6px 12px 6px 48px;
+    border-radius: 50px;
     position: relative;
-    top: 40px;
-    right: 550px;
-    color: black; 
-    height: 100px;
-    width: 100px;
-    }
-    .search-box {
+    right: 500px;
+  }
+    /* .search-box {
         width: 250px; 
         height: 30px; 
         padding: 5px; 
         font-size: 16px; 
         border: 1px solid #ccc; 
         border-radius: 5px
-    }
+    } */
 
   
   .profile-icon  {
@@ -106,9 +106,12 @@ body {
   
         
     .img-right {
-        margin-left: 900px;
-        margin-bottom:300px; 
-        
+    }
+    .sss{
+      position: absolute;
+      bottom: 400px;
+      left: 850px;
+      border-radius: 20px;
     }
 
     .img3 {
@@ -160,13 +163,11 @@ body {
 
 
     .searchicon{
-        position: relative;
-        bottom: 26px;
-        left: 226px;
-        height: 5px;
-        
-    
-      }
+      position: relative;
+      bottom: 26px;
+      right: 480px;
+      height: 5px;
+     }
      
     
  

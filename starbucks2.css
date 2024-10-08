@@ -41,22 +41,32 @@ header {
   color: lightgreen; 
 }
 
-.search-container{
+/* .search-container{
   position: relative;
   top: 40px;
   right: 550px;
   color: black; 
   height: 100px;
   width: 100px;
+  } */
+
+
+  .nav-2 input{
+    width: 200px;
+    height: 18px;
+    padding: 6px 12px 6px 48px;
+    border-radius: 50px;
+    position: relative;
+    right: 500px;
   }
-  .search-box {
+  /* .search-box {
       width: 250px; 
       height: 30px; 
       padding: 5px; 
       font-size: 16px; 
       border: 1px solid #ccc; 
-      border-radius: 10px
-  }
+      border-radius: 10px */
+  
 
   .profile-icon  {
     position: relative;
@@ -98,6 +108,7 @@ header {
   padding: 0;
   margin: 0;
   display: flex;
+  gap: 5px;
 }
 
 .navbar-menu li {
@@ -136,13 +147,13 @@ header {
   color: #333;
 }
 
-.item-size,
-.item-calories,
+/* .item-size,{
+/* .item-calories,
 .item-description,
-.item-price {
-  margin: 5px 0;
+.item-price  */
+  /* margin: 5px 0;
   color: #555;
-}
+} */ */
 
 .item-price {
   font-weight: bold;
@@ -169,13 +180,13 @@ header {
   color: #333;
 }
 
-.item-size,
+/* .item-size,
 .item-calories,
 .item-description,
 .item-price {
   margin: 5px 0;
   color: #555;
-}
+} */
 
 .item-price {
   font-weight: bold;
@@ -202,14 +213,14 @@ header {
   margin: 0 0 10px;
   color: #333;
 }
-
+/* 
 .item-size,
 .item-calories,
 .item-description,
 .item-price {
   margin: 5px 0;
   color: #555;
-}
+} */
 
 .item-price {
   font-weight: bold;
@@ -246,13 +257,13 @@ header {
   color: #333;
 }
 
-.item-size,
+/* .item-size,
 .item-calories,
 .item-description,
 .item-price {
   margin: 5px 0;
   color: #555;
-}
+} */
 
 .item-price {
   font-weight: bold;
@@ -277,13 +288,13 @@ header {
   color: #333;
 }
 
-.item-size,
+/* .item-size,
 .item-calories,
 .item-description,
 .item-price {
   margin: 5px 0;
   color: #555;
-}
+} */
 
 .item-price {
   font-weight: bold;
@@ -308,13 +319,13 @@ header {
   color: #333;
 }
 
-.item-size,
+/* .item-size,
 .item-calories,
 .item-description,
 .item-price {
   margin: 5px 0;
   color: #555;
-}
+} */
 
 .item-price {
   font-weight: bold;
@@ -410,15 +421,20 @@ header {
 }
 
 
-
+/* 
 .searchicon{
   position: relative;
   bottom: 26px;
   left: 226px;
-  height: 5px;
+  height: 5px; */
   
 
-}
+  .searchicon{
+    position: relative;
+    bottom: 26px;
+    right: 480px;
+    height: 5px;
+   }
 
 h3{
   margin: 200px;
